@@ -1,0 +1,9 @@
+! copy config
+
+scp system-default.cfg ubnt@192.168.1.20:/tmp/system.cfg
+
+! save
+ssh ubnt@192.168.1.20 cfgmtd -f /tmp/system.cfg -w
+
+! reboot
+ssh ubnt@192.168.1.20 reboot
