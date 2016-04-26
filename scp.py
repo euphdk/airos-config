@@ -1,5 +1,6 @@
 # scp.py
 # Copyright (C) 2008 James Bardin <j.bardin@gmail.com>
+# https://github.com/jbardin/scp.py
 
 """
 Utilities for sending files over ssh using the scp1 protocol.
